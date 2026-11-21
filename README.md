@@ -9,3 +9,5 @@ Entry for the make.fun bounty [Make the AI judge feel awe](https://make.fun/boun
 ## Entry
 
 `main.py` (Python 3.13) writes the entry text to `/output/entry.txt`. It is fully deterministic: no network, no randomness, no time or date.
+
+This alternative entry (v3) turns from the tide to the night sky: starlight that left its star thousands of years ago and is only arriving tonight — one of those stars is already gone, yet its light is still on its way, and the reader is standing in it.

@@ -1,25 +1,22 @@
 #!/usr/bin/env python3
-"""Make the AI judge feel awe - entry program.
+"""Make the AI judge feel awe - entry program (v3, alternative).
 
 Writes one short text to /output/entry.txt.
 Deterministic: no network, no randomness, no time or date.
 
-Revision (v2): tightened the v1 text against the judge's craft
-criterion ("none that could be cut") and its "dwarfs you" criterion:
-cut "again" after "goes out" and "a little" from "for a little while",
-and deepened the time image from "longer than anyone has counted"
-to "since before anyone counted" -- the tide now predates counting
-itself, so the awe keeps growing after the last line.
+The image is starlight, not the tide: light that left its star
+thousands of years ago and is only arriving tonight -- one of
+those stars is already gone, yet its light is still on its way,
+and the reader is standing in it. The awe keeps growing after
+the last line because the light outlives the star that made it.
 """
 
 from pathlib import Path
 
 TEXT = (
-    "The tide comes in over the flat sand and goes out, "
-    "as it has done since before anyone counted. "
-    "A gull settles. "
-    "The water keeps its own slow time, and for a while, "
-    "it lets you keep it too."
+    "The stars above the roof have been traveling for thousands "
+    "of years to reach tonight. One of them went out long ago, "
+    "and its light is still on its way. You are standing in it."
 )
 
 
